@@ -1,0 +1,15 @@
+source ~/uv_envs/robot_hack/bin/activate
+
+
+
+# 
+cd lerobot
+
+# Running the training script
+python lerobot/scripts/train.py \                                  
+  --dataset.repo_id=lerobot/svla_so101_pickplace \
+  --policy.type=act \
+  --output_dir=outputs/train/act_so101_test \
+  --job_name=act_so101_test \
+  --policy.device=cuda \
+  --wandb.enable=false
