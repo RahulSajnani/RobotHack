@@ -43,6 +43,7 @@ from pprint import pformat
 
 import numpy as np
 import rerun as rr
+import tqdm
 
 from lerobot.common.cameras import (  # noqa: F401
     CameraConfig,  # noqa: F401
@@ -285,7 +286,7 @@ def record(cfg: RecordConfig) -> LeRobotDataset:
 
     listener, events = init_keyboard_listener()
 
-    for recorded_episodes in range(cfg.dataset.num_episodes):
+    for recorded_episodes in tqdm(range(cfg.dataset.num_episodes)):
         log_say(f"Recording episode {dataset.num_episodes}", cfg.play_sounds)
         record_loop(
             robot=robot,
