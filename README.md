@@ -8,14 +8,14 @@ Problem statement: Autonomously remove debris from manholes on roads.
 
 ### Picking manhole lid
 
-[![Picking manhole lid](./docs/picking_lid.m4v)](./docs/picking_lid.m4v)
+<video src="./docs/picking_lid.m4v" width="640" controls></video>
 
 ### Picking debris from hole
 
-[![Picking debris from hole](./docs/picking_debris.mp4)](./docs/picking_debris.mp4)
+<video src="./docs/picking_debris.mp4" width="640" controls></video>
 
 ## Illustration of the task
-[![Task Illustration](./docs/illustration_video.mp4)](./docs/illustration_video.mp4)
+<video src="./docs/illustration_video.mp4" width="640" controls></video>
 
 ### Task breakdown 
 1. Opening the manhole cover
