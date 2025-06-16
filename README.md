@@ -4,8 +4,18 @@ Team members: Gauri Gandhi, Rahul Sajnani, Rohan Chacko, Gaurav Chaudhary
 
 Problem statement: Autonomously remove debris from manholes on roads. 
 
+## Demo
+
+### Picking manhole lid
+
+[![Picking manhole lid](./docs/picking_lid.m4v)](./docs/picking_lid.m4v)
+
+### Picking debris from hole
+
+[![Picking debris from hole](./docs/picking_debris.mp4)](./docs/picking_debris.mp4)
+
 ## Illustration of the task
-<video src="https://github.com/RahulSajnani/RobotHack/blob/main/docs/illustration_video.mp4" width="800" />
+[![Task Illustration](./docs/illustration_video.mp4)](./docs/illustration_video.mp4)
 
 ### Task breakdown 
 1. Opening the manhole cover
@@ -13,7 +23,7 @@ Problem statement: Autonomously remove debris from manholes on roads.
 3. Closing the manhole cover (did not train)
 
 ## Model training
-The model was trained on top of![SmolVLA](https://huggingface.co/blog/smolvla) using the ACT policy.
+The model was trained on top of [SmolVLA](https://huggingface.co/blog/smolvla) using the ACT policy.
 
 ### Model checkpoints (on Huggingface)
 * Picking manhole lid: shubhgaurav10/act\_so101\_only\_pick\_lid\_single
